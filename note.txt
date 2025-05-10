@@ -1,0 +1,11 @@
+# initialize backend
+npm init -y
+npm i express mongoose dotenv jsonwebtoken cloudinary bcryptjs cors 
+# for development
+npm i nodemon -D
+
+# add to package json
+"type":"module",
+
+# generate secret key
+openssl rand -base64 32
