@@ -9,3 +9,13 @@ npm i nodemon -D
 
 # generate secret key
 openssl rand -base64 32
+
+# build command for deploying
+npm install
+
+# start command for deploying
+npm run start
+if start script hasn't made -> node src/index.js
+
+# sending request every 14 mins, cron jobs
+npm i cron
